@@ -1,0 +1,231 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   GLOBAL
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fa;
+    color:#1f2937;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    background:linear-gradient(90deg,#2563eb,#1d4ed8)!important;
+    padding:18px 35px;
+    box-shadow:0 5px 18px rgba(0,0,0,.12);
+}
+
+.navbar-brand{
+    font-size:1.6rem;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+/* ===========================
+   MAIN CARD
+=========================== */
+
+.card{
+    border:none!important;
+    border-radius:18px!important;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+}
+
+.card-body{
+    padding:30px;
+}
+
+/* ===========================
+   DASHBOARD CARDS
+=========================== */
+
+.row .card{
+    transition:.3s ease;
+}
+
+.row .card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.bg-success{
+    background:linear-gradient(135deg,#22c55e,#16a34a)!important;
+}
+
+.bg-danger{
+    background:linear-gradient(135deg,#074d27,#dc2626)!important;
+}
+
+.bg-primary{
+    background:linear-gradient(135deg,#9f2608,#2563eb)!important;
+}
+
+.row h5{
+    font-weight:600;
+    margin-bottom:12px;
+}
+
+.row h3{
+    font-weight:700;
+    font-size:30px;
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+form h3{
+    font-weight:700;
+    margin-bottom:25px;
+    color:#2563eb;
+}
+
+.form-label{
+    font-weight:600;
+}
+
+.form-control,
+.form-select{
+    border-radius:10px;
+    border:1px solid #d1d5db;
+    padding:12px;
+    transition:.3s;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 .15rem rgba(37,99,235,.25);
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+    border-radius:10px;
+    padding:10px 20px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:#2563eb;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+.btn-warning{
+    color:white;
+    background:#f59e0b;
+    border:none;
+}
+
+.btn-warning:hover{
+    background:#d97706;
+}
+
+.btn-danger{
+    border:none;
+}
+
+.btn-danger:hover{
+    transform:scale(1.05);
+}
+
+/* ===========================
+   SEARCH
+=========================== */
+
+input[type="text"]{
+    border-radius:10px;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+table{
+    margin-top:25px!important;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+thead{
+    background:#2563eb;
+    color:white;
+}
+
+thead th{
+    text-align:center;
+    padding:15px!important;
+}
+
+tbody td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+tbody tr{
+    transition:.25s;
+}
+
+tbody tr:hover{
+    background:#eff6ff;
+}
+
+/* ===========================
+   CHECKBOX
+=========================== */
+
+.form-check-input{
+    transform:scale(1.2);
+    cursor:pointer;
+}
+
+/* ===========================
+   HR
+=========================== */
+
+hr{
+    margin:45px 0!important;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+.row .col-md-4{
+    margin-bottom:20px;
+}
+
+.navbar-brand{
+    font-size:22px;
+}
+
+.card-body{
+    padding:20px;
+}
+
+.row h3{
+    font-size:24px;
+}
+
+}
