@@ -1,0 +1,66 @@
+.analytics-chart-card {
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:22px;
+
+    height:100%;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+
+.chart-heading h4 {
+
+    margin:0;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+
+
+.chart-heading p {
+
+    margin:5px 0 0;
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+
+
+.analytics-chart-container {
+
+    height:330px;
+
+    margin-top:15px;
+
+}
+
+
+
+.empty-chart {
+
+    height:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#64748b;
+
+}

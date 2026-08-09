@@ -1,0 +1,236 @@
+.transaction-table-card {
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:22px;
+
+    margin-top:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+
+.table-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.table-header h3 {
+
+    margin:0;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+
+
+.table-header span {
+
+    background:#e2e8f0;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    color:#475569;
+
+}
+
+
+
+
+
+.transaction-table {
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+.transaction-table th {
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:14px;
+
+    text-align:left;
+
+}
+
+
+
+.transaction-table td {
+
+    padding:14px;
+
+    border-bottom:1px solid #e2e8f0;
+
+    color:#334155;
+
+}
+
+
+
+.transaction-table tbody tr:hover {
+
+    background:#f8fafc;
+
+}
+
+
+
+
+
+.category-cell {
+
+    font-weight:600;
+
+}
+
+
+
+
+
+.amount-income {
+
+    color:#059669;
+
+    font-weight:700;
+
+}
+
+
+
+.amount-expense {
+
+    color:#dc2626;
+
+    font-weight:700;
+
+}
+
+
+
+
+
+.income-badge,
+.expense-badge {
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+}
+
+
+
+.income-badge {
+
+    background:#d1fae5;
+
+    color:#047857;
+
+}
+
+
+
+.expense-badge {
+
+    background:#fee2e2;
+
+    color:#b91c1c;
+
+}
+
+
+
+
+
+.edit-btn,
+.delete-btn {
+
+
+    border:none;
+
+    padding:7px 14px;
+
+    border-radius:8px;
+
+    margin-right:8px;
+
+    cursor:pointer;
+
+    color:white;
+
+}
+
+
+
+.edit-btn {
+
+    background:#f59e0b;
+
+}
+
+
+
+.edit-btn:hover {
+
+    background:#d97706;
+
+}
+
+
+
+.delete-btn {
+
+    background:#ef4444;
+
+}
+
+
+
+.delete-btn:hover {
+
+    background:#dc2626;
+
+}
+
+
+
+
+
+.empty-row {
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#64748b;
+
+}

@@ -3,14 +3,15 @@ import api from "./api";
 import "./App.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import PieChartCard from "./components/PieChartCard";
-import BarChartCard from "./components/BarChartCard";
-import DashboardCards from "./components/DashboardCards";
-import SearchBar from "./components/SearchBar";
-import Filter from "./components/Filter";
-import TransactionForm from "./components/TransactionForm";
-import TransactionTable from "./components/TransactionTable";
-import DeleteModal from "./components/DeleteModal";
+import PieChartCard from "./components/dashboard/PieChartCard";
+import BarChartCard from "./components/dashboard/BarChartCard";
+import DashboardCards from "./components/dashboard/DashboardCards";
+import SearchBar from "./components/transactions/SearchBar";
+import Filter from "./components/transactions/Filter";
+import TransactionForm from "./components/transactions/TransactionForm";
+import TransactionTable from "./components/transactions/TransactionTable";
+import DeleteModal from "./components/transactions/DeleteModal";
+import Navbar from "./components/Navbar";
 
 
 const App = () => {
@@ -135,13 +136,7 @@ const filteredTransactions = transactions.filter((transaction) => {
     pauseOnHover
     theme="colored"
 />
-            <nav className="navbar navbar-dark bg-primary">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        Finance App
-                    </a>
-                </div>
-            </nav>
+            <Navbar />
             <div className="container mt-4">
               <div className="card">
                 <div className="card-body">
