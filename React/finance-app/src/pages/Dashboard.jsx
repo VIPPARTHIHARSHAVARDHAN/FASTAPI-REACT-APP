@@ -28,7 +28,7 @@ const Dashboard = () => {
 
 
             setLoading(true);
-            const token = localStorage.getItem("token");
+           
 
 
             const response = await api.get("/transactions/");

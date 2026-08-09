@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import Sidebar from "../components/common/Sidebar";
-import Navbar from "../components/common/Navbar";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
