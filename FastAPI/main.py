@@ -69,7 +69,7 @@ pwd_context = CryptContext(
 
 origins = [
 
-    "http://localhost:3000"
+    "http://localhost:3000",
     "https://budgeto-eta.vercel.app"
 
 ]
