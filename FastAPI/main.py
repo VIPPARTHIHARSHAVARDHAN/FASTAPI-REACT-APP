@@ -90,7 +90,9 @@ app.add_middleware(
 )
 
 
-
+@app.get("/")
+def home():
+    return {"message": "Budgeto Backend Running"}
 
 
 
